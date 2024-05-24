@@ -1,0 +1,519 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, Poppins;
+}
+
+
+.hello{
+    /* background-color: rgb(255, 0, 0) !important; */
+    width: 90%;
+    margin: auto;
+}
+
+.hello .Don{
+    margin-left: 270px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.hello .call{
+    margin-right: 35px;
+}
+
+.hello .user{
+    margin-right: 10px;
+}
+
+.hello .search{
+    margin-top: 18px;
+}
+
+.section1{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 28px 20px 28px;
+    margin-top: 3px;
+
+}
+
+.section1 .men{
+    padding-right: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.section1 .new-arrivals{
+    padding-left: 150px;
+}
+
+.section1 .Desginers{
+    padding-left: 80px;
+}
+
+.section2{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding: 10px 28px 10px 28px;
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, Poppins;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.63);
+} 
+
+.section3{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding: 10px 28px 10px 28px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.63);
+}
+
+.section3 .Categories{
+    padding-left: 80px;
+}
+
+.section3 .sort{
+    padding-left: 400px;
+}
+
+.section4{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 28px 10px 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section4 .card{
+    padding-top: 29px;
+    /* background-color: violet; */
+    border: none;
+}
+
+.section4 .card .exclusive img{
+    /* background-color: blue; */
+    height: 4vh; 
+}
+
+.section4 .card .image{
+    width: 90%;
+}
+
+.section4 .card .image img{
+    width: 100%;
+}
+
+.section4 .card .African{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section5{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding: 40px 28px 10px 28px;
+    display: flex;
+    
+}
+
+.section5 .card1{
+    text-align: center;
+    /* font-family: Verdana, Geneva, Tahoma, Poppins; */
+    font-size: 30px;
+    width: 40%;
+    padding-top: 250px;
+    line-height: 44px;
+}
+
+.section5 .card2{
+    width: 50%;
+}
+
+.section5 .card2 img{
+    width: 100%;
+}
+
+.section6{
+    width: 90%;
+    margin: auto;
+    color: lightslategray;
+    background-color: white;
+    padding: 20px 28px 10px 28px;
+    text-align: center;
+}
+
+.section6 .mee{
+    padding-left: 5px;
+}
+
+.section6 .yoo{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+.section7{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding: 40px 28px 10px 28px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section7 .part1{
+    width: 39%;
+    padding-left: 50px;
+    position: relative;
+}
+
+.section7 .part1 img{
+    width: 100%;
+}
+
+.section7 .part1 .text{
+    position: relative;
+    bottom: 280px;
+    padding-left: 5px;
+}
+
+.section7 .part1 .button{
+    position: relative;
+    bottom: 100px;
+    padding-left: 10px;
+}
+
+.section7 .part1 button{
+    background-color: white;
+    padding: 10px;
+    border: none;
+    font-size: large;
+}
+
+.section8{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 28px 40px 28px;
+    text-align: center;
+}
+
+.section8 .yes{
+    /* background-color: red; */
+    padding: 5px 10px;
+    width: 25%;
+}
+
+.section8 input{
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.section8 .up{
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: lightgrey;
+    padding: 10vh 0;
+}
+
+.footer .top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: auto;
+}
+
+.footer .top a {
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    color: black;
+    margin-bottom: 3vh;
+    font-size: 13px;
+}
+
+.footer .top .right p {
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer .top .right .content {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    height: fit-content;
+}
+
+.footer .top .right .icons {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+
+.footer .top .right .icons a {
+    display: inline;
+}
+
+.footer .bottom {
+    width: 35%;
+    margin: 5vh auto 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .bottom a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+
+    .navbar-light .navbar-brand {
+        color: rgba(0, 0, 0, 0.9);
+        font-weight: bold;
+    }
+
+    .hello .search {
+        margin-top: 18px;
+        font-weight: bold;
+    }
+
+    .hello .Don {
+        margin-left: 3px;
+        font-weight: bold;
+        font-size: xx-large;
+    }
+
+    .hello .yoo{
+        display: block;
+        padding-top: 5px;
+    }
+
+    .section1{
+        width: 90%;
+        margin: auto;
+        background-color: white;
+        padding: 20px 28px 20px 16px;
+        margin-top: 3px;
+    
+    }
+    
+
+    .section1 .men{
+        padding-right: 0px;
+        font-size: 13px;
+        font-weight: bolder;
+    }
+
+    .section1 .new-arrivals{
+        padding-left: 0px;
+        font-size: small;
+        display: block;
+    }
+
+    .section1 .Desginers{
+        padding-left: 0px;
+        font-size: small;
+        display: block;
+    }
+
+    .section2 {
+        width: 90%;
+        margin: auto;
+        background-color: white;
+        padding: 10px 28px 10px 10px;
+        margin-top: 3px;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, Poppins;
+        text-align: center;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.63);
+    }
+
+    .section3 {
+        width: 90%;
+        margin: auto;
+        background-color: white;
+        padding: 10px 28px 10px 16px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.63);
+        line-height: 30px;
+    }
+
+    .section3 .Categories {
+        display: block;
+        padding-left: 0px;
+    }
+
+    .section3 .sort {
+        padding-left: 0px;
+    }
+    
+    .section4 {
+        width: 90%;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+        padding: 10px 28px 10px 28px;
+        display: block;
+    }
+
+    .section5 {
+        width: 90%;
+        margin: auto;
+        background-color: white;
+        padding: 10px 28px 10px 28px;
+        display: block;
+    }
+    
+    .section5 .card1 {
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+        padding-top: 50px;
+        line-height: 44px;
+    }
+
+    .section5 .card2 {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .section5 .card2 img {
+        width: 100%;
+    }
+
+    .section6 {
+        width: 90%;
+        margin: auto;
+        color: lightslategray;
+        background-color: white;
+        padding: 20px 28px 10px 28px;
+        text-align: center;
+        font-size:small ;
+    }
+
+    .section6 .yoo {
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+
+    .section6 .mee {
+        padding-left: 3px;
+    }
+
+    .section7 {
+        width: 90%;
+        margin: auto;
+        background-color: white;
+        padding: 40px 0px 10px 0px;
+        display: block;
+    }
+
+    .section7 .part1 {
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .section7 .part1 .text {
+        position: relative;
+        bottom: 190px;
+        padding-left: 5px;
+    }
+
+    .section7 .part1 img {
+        width: 100%;
+    }
+
+    .section8 {
+        width: 90%;
+        margin: auto;
+        padding: 10px 28px 40px 28px;
+        text-align: center;
+    }
+
+    .section8 .Emails {
+        font-size: large;
+    }
+
+    .section8 .Subcribe {
+        font-size: small;
+    }
+
+    .section8 .yes {
+        padding: 5px 10px;
+        width: 50%;
+    }
+
+    .section8 .up {
+        background-color: black;
+        color: white;
+        padding: 10px 30px;
+        border: none;
+        font-weight: bold;
+    }
+
+    .footer .top {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
+    }
+
+    .footer .bottom a {
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+}
